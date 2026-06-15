@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "createdWith": "grafcet.io",
+  "createdAt": "2026-06-15T19:40:53.285Z",
+  "nodes": [
+    {
+      "id": "initial-step-0",
+      "type": "initialStep",
+      "position": {
+        "x": 400,
+        "y": 100
+      },
+      "data": {
+        "label": "0"
+      }
+    },
+    {
+      "id": "transition-0",
+      "type": "transition",
+      "position": {
+        "x": 400,
+        "y": 160
+      },
+      "data": {
+        "label": "1̲"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-initial-step-0-transition-0",
+      "source": "initial-step-0",
+      "sourceHandle": "bottom",
+      "target": "transition-0",
+      "targetHandle": "top",
+      "type": "defaultEdge"
+    }
+  ],
+  "counter": 1
+}
